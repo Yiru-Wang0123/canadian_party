@@ -17,3 +17,6 @@ bar <- cleaned_elections_data |>
   labs(x = "Party", y = "Number of seats") # Make lab
 
 ggsave("bar_graph.pdf")
+
+pie <- cleaned_elections_data |> 
+  ggplot(aes(x = ))

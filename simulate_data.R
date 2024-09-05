@@ -1,6 +1,13 @@
 library(tidyverse)
 library(janitor)
 
+#### Preamble ####
+# Purpose: Simulate data for the 2021 Canadian Election 
+# Author: STA304 Group 14
+# Email: yiruyiru.wang@mail.utoronto.ca
+# Date:  Sep 5, 2024
+# Prerequisites: None
+
 set.seed(0123)
 
 simulated_data <-
